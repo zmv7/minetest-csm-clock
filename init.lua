@@ -13,7 +13,7 @@ minetest.register_globalstep(function(dtime)
       position = {x = 1, y = 0},
       scale = {x = 100, y = 100},
       number = 0xFFFF00,
-      offset = {x = -20, y = 10}})
+      offset = {x = -25, y = 10}})
     if not clock then return end
   end
   core.localplayer:hud_change(clock, "text", update())
